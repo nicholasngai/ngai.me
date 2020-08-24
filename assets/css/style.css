@@ -11,7 +11,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
-  color: #202028;
+  color: #808080;
 }
 
 .author {
@@ -22,9 +22,13 @@ body {
 .author__header {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
+  color: #202028;
   text-align: center;
 }
 
-.author__bio {
-  color: #808080;
+.author__byline {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align: center;
 }
