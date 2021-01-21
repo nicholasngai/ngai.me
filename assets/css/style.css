@@ -34,22 +34,18 @@ body {
 }
 
 .contact {
-  text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
 .contact__list {
-  display: inline-block;
   margin: 0;
   padding: 0;
+  text-align: center;
   list-style-type: none;
 }
 
 .contact__list-item {
-  display: inline;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   padding-left: 2rem;
 }
 
