@@ -34,8 +34,8 @@ body {
 }
 
 .contact {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .contact__list {
@@ -52,4 +52,19 @@ body {
 .contact__list-icon {
   position: absolute;
   transform: translate(-1.6rem, 0.3rem);
+}
+
+.teaching,
+.projects,
+.education {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.teaching__header,
+.projects__header,
+.education__header {
+  font-size: 1.5rem;
+  color: #202028;
+  text-align: center;
 }
