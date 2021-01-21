@@ -16,7 +16,7 @@ body {
 
 .author {
   margin-top: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 .author__header {
@@ -31,4 +31,29 @@ body {
   font-size: 1.25rem;
   font-style: italic;
   text-align: center;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.contact__list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contact__list-item {
+  display: inline;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 2rem;
+}
+
+.contact__list-icon {
+  position: absolute;
+  transform: translate(-1.6rem, 0.3rem);
 }
